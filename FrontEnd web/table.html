@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td{
+            border: 3px solid rgb(5, 16, 239);
+            border-collapse: collapse;
+            border-radius: 0px;
+            border-style: groove;  
+        }
+        th, td{
+            text-align: center;
+        }
+        caption{
+            text-align: right;
+        }
+        /* table.center{
+    margin-left: auto;
+    margin-right: auto;
+} */
+    </style>
 </head>
 <body>
-    <table border="2">
+    <caption>Vegie table</caption>
+    <table width="40%" class="center">
         <colgroup>
-        <col style="background-color: coral">
+        <col span="3" style="background-color: rgb(246, 250, 16)">
         </colgroup>
+        <thead>
         <tr>
             <th>serial num</th>
             <th>Vegetables</th>
             <th>color</th>
-        </tr><br>
+        </tr>
+        </thead><br>
+        <tbody>
         <tr>
             <td>1.</td>
             <td>aloooo</td>
@@ -25,6 +47,12 @@
             <td>baingan</td>
             <td>purpleee</td>
         </tr>
+        </tbody>
+        <!-- <tfoot>
+            <td>total 2</td>
+            <td>vegies</td>
+            <td> colors </td>
+    </tfoot> -->
     </table>
 </body>
 </html>
