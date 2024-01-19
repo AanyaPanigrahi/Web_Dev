@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        .xyz div{
+            width: 33%;
+            float: left;
+        }
+
+    </style>
 </head>
 <body>
-    <!--
-        Block element
-        Takes full width, adds new line space before and afterwards
-    -->
+
     <p style="background-color: aquamarine;">Paragraph block element</p>
     <div style="background-color: aqua;">Divisiom block element</div>
 
-    <!--
-        Inline element
-        Takes as much space as the content, no additional space
-        before or afterwards
-    -->
     <span style="background-color: khaki;">Span inline element</span>
 
-    <!--use-->
-    <!--divison of block-->
     <div style="background-color: greenyellow;">
         <h1>Dummy Para</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
@@ -30,8 +28,25 @@
     </div>
 
     <br><br>
-    <!--mark text-->
+
     <p>My name is <span style="background-color: khaki;">Aanya</span>. Hehehe</p>
+
+    <div class="xyz">
+    <div style="background-color: yellow;">
+        <h2>Block Element</h2>
+        <p>Takes full width, also adds a new line space before
+            and afterwards</p>
+    </div>
+    <div style="background-color: chartreuse;">
+        <h2>Inline Element</h2>
+        <p>Takes as much space as the content, no additional space
+            before or afterwards</p>
+    </div>
+    <div style="background-color: cyan;">
+        <h2>Use of them</h2>
+        <p>1.divison of block <br>2.mark text</p>
+    </div>
+    </div>
 
 </body>
 </html>
