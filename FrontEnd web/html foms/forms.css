@@ -1,0 +1,36 @@
+form{
+    max-width: 400px;
+    background-color: mistyrose;
+    margin:auto auto auto auto;
+    padding: 20px 30px;
+}
+
+body {
+    background-image: url('formsbackground.jpg');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-attachment: fixed;
+  }
+#abc{
+    margin-left: 30%;
+    text-align: initial;
+  }
+  #xyz{
+    margin-left: 30%;
+    text-align: initial;
+  }
+ fieldset,h2{
+    text-align: center;
+}
+p{
+    color: darkblue;
+}
+#msg{
+    display: flex;
+    align-items: center;
+}
+#message{
+    margin-left: 20px;
+}
