@@ -1,0 +1,49 @@
+#abc{
+    
+    background-color: rgb(156, 245, 247);
+    border: 2px solid black;
+    border-radius: 0px 50px 0px 50px;
+}
+#ijk{
+    
+    background-color: khaki;
+    border: 2px solid black;
+    border-radius: 50px 0px 50px 0px;
+
+}
+#pqr{
+    
+    background-color: rgb(176, 249, 98);
+    border: 2px solid black;
+    border-radius: 50px 0px 50px 0px;
+}
+#xyz{
+    
+    background-color: rgb(240, 121, 98);
+    border: 2px solid black;
+    border-radius: 0px 50px 0px 50px;
+
+}
+p
+{
+    float: left;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 0.5px rgb(3, 3, 3) inset;
+
+}
+p:hover{
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+div{
+    height: 500px;
+    position: static;
+    width: 500px;
+    text-align: center;
+    margin: auto auto auto auto;
+}
+span{
+    position: relative;
+    top:40%;
+}
