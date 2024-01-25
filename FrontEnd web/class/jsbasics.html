@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="jsbasics.js"></script>
+    </head>
+    <body>
+            <p id="demo"></p>
+            <script>
+                document.write("This is Javascript")
+            </script><br>
+            <p id="demo1"></p>
+            <script>
+                document.getElementById("demo1").innerHTML="Aanya";
+                function msg(){
+                    alert("Hello");
+                }
+                function msg1(){
+                    alert("Bye");
+               }
+            </script>
+            <input type="button" value="Internal" onclick="msg()">
+            <input type="button" value="External" onclick="msg1()">
+      
+    </body>
+</html>
