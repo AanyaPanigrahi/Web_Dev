@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        
+    var time=new Date().getHours()
+    if(time<10){
+        document.write("<b>Good morning</b>");
+    }
+    else if(time>10 && time<16){
+        document.write("<b>Good evening</b>");
+    }
+    else{
+        document.write("hello");
+    }
+    document.getElementById("demo").innerHTML=time;
+    </script>
+</body>
+</html>
