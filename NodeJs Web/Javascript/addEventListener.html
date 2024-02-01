@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Java addEventListener</h2>
+    <p>Example of addEventListener() method to add multiple events on same button</p>
+    <button id="myButton">Try it</button>
+    <p id="demo"></p>
+    <script>
+        var x=document.getElementById("myButton");
+        x.addEventListener("mouseover",myFunction);
+        x.addEventListener("click",SecondFunc);
+        x.addEventListener("mouseout",ThirdFunc);
+
+        function myFunction(){
+            document.getElementById("demo").innerHTML="Mouse Over!<br>"
+        }
+        function SecondFunc(){
+            document.getElementById("demo").innerHTML="Clicked!<br>"
+        }
+        function ThirdFunc(){
+            document.getElementById("demo").innerHTML="Mouse Out!<br>"
+        }
+    </script>
+</body>
+</html>
