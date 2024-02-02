@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Arrays</h1>
+    <h2>Looping an array</h2>
+    <p id="demo"></p>
+    <p id="abc"></p>
+    <p id="demie"></p>
+    
+    <p id="ex1"></p>
+    <p id="ex2"></p>
+    <script>
+
+        const fruits=["Banana","Apple","Mango"];
+        let flen=fruits.length;
+
+        let text="<ul>";
+            for(let i=0;i<flen;i++){
+                text+="<li>"+fruits[i]+"</li>";
+            }
+            text+="</ul>";
+
+        let txt="<ol>";
+            for(let j=0;j<flen;j++){
+                txt+="<li>"+fruits[j]+"</li>";
+            }
+            txt+="</ol>";
+
+            document.write(flen);
+            document.getElementById("demo").innerHTML=text;
+            document.getElementById("abc").innerHTML=txt;
+    </script>
+    <br>
+    
+    <script>
+        const fruits2=["PineApple","Guava","Grapes","Watermelon"];
+        document.getElementById("ex1").innerHTML=fruits2;
+        fruits2.sort();
+        document.getElementById("ex2").innerHTML=fruits2;
+    </script>
+    
+    <script>
+        const colors=["red","blue","green"];
+        let position=colors.indexOf("blue")+1;
+        document.getElementById("demie").innerHTML="blue is at position "+position;
+    </script>
+</body>
+</html>
