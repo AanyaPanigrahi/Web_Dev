@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var emp={id:6046,name:"xyz",age:30}
+        document.write(emp.id + " " + emp.name + " " + emp.age)
+        </script>
+        <br>
+        <script>
+        var empo=new Object();
+        empo.id=121;
+        empo.name="Joseph";
+        empo.salary=60000;
+        document.write(empo.id+" "+empo.name+" "+empo.salary);
+    </script><br>
+    <p id="demo"></p>
+    <script>
+        //creating object
+        //constructor
+        const person={
+            firstName:"Aanya",
+            LastName:"Panigrahi",
+            id:12216046,
+            fullname: function(){
+                return this.firstName + " " + this.LastName+" "+this.id;
+            }
+        };
+        //display data from obj
+        document.getElementById("demo").innerHTML=person.fullname();
+    </script>
+</body>
+</html>
