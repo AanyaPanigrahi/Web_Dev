@@ -16,3 +16,7 @@ console.log(!false);
 //relational > <
 //bitwise
 //assignment
+
+//ternary
+console.log(3>4?"3 greater than 4":"4 greater than 3")
+//a>b?a:b T first case, F second case
